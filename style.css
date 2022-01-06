@@ -1,0 +1,95 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+p{
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 50px;
+}
+.flexible-container{
+    display: flex;
+    margin: 0px 100px 120px 100px;
+}
+.focus-left{
+    width: 50%;
+    padding-top: 150px;
+}
+.focus-heading{
+    padding-left: 10px;
+    border-left: 5px solid;
+    border-image: linear-gradient(#ff4500, orange);
+    border-image-slice: 1;  
+}
+.my-btn{
+    background-image: linear-gradient(#ff4500, orange);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bolder;
+}
+.focus-right{
+    width: 50%;
+    margin-left: 200px;
+}
+.focus-right img{
+    width: 80%;
+}
+.orangered-color{
+    color: orangered;
+}
+.mission-area h1{
+    text-align: center;
+}
+.mission-area-left{
+    width: 30%;
+    margin-left: 25px;
+    background-color: #dbe4e6;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+.mission-area-center{
+    width: 30%;
+    margin-left: 25px;
+    background-color: peachpuff;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+.mission-area-right{
+    width: 30%;
+    margin-left: 25px;
+    background-color: palegreen;
+    padding: 5px 15px;
+    border-radius: 25px;
+}
+.mission-area img{
+    width: 40%;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 60%;
+    margin-bottom: 50px;
+}
+#web-dev{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+}
+#global-network{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 320px 200px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px 0 30px;
+    text-align: center;
+}
